@@ -46,17 +46,17 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ReactJs Developer",
     icon: mobile,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -117,10 +117,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Bridgelabz solutions",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2021 - July 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +129,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "ReactJs Web Developer",
+    company_name: "Bajaj Broking",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,10 +143,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Bajaj Broking",
+    icon: tesla,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,68 +198,105 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EKYC(Demat Account)",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "HTML",
         color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "TeleCaller",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML",
         color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "HNIEKYC",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML",
         color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  // {
+  //   name: "OMS",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "ReactJs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "HTML",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
